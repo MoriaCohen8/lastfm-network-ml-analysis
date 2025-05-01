@@ -8,7 +8,7 @@ from scipy.stats import pearsonr
 import numpy as np
 
 # Load the data
-lastfm_edges = pd.read_csv('lastfm_asia_edges.csv')
+lastfm_edges = pd.read_csv('data/lastfm_asia_edges.csv')
 print(lastfm_edges.head())
 
 # Convert the dataframe to NetworkX graph
@@ -246,7 +246,7 @@ nx.set_node_attributes(GA_filtered, {node: 1 for node in outliners}, name=f"outl
 ##### 5. Network communities #####
 
 # Load the data user and country and his/her favorite artists
-lastfm_target = pd.read_csv('lastfm_asia_target.csv')
+lastfm_target = pd.read_csv('data/lastfm_asia_target.csv')
 # lastfm_asia_features = json.load(open('lastfm_asia_features.json'))
 
 # Detect communities using the Louvain method
