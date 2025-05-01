@@ -62,7 +62,7 @@ The goal is to predict a user's country using graph-based features:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/lastfm-network-ml-analysis.git
+git clone https://github.com/MoriaCohen8/lastfm-network-ml-analysis.git
 cd lastfm-network-ml-analysis
 ```
 
